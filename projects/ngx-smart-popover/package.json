@@ -1,6 +1,6 @@
 {
-    "name": "@forkpopover/ngx-smart-popover-18",
-    "version": "18.0.0",
+    "name": "ngx-smart-popover-extended",
+    "version": "18.0.1",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jcoddev/ngx-smart-popover.git"

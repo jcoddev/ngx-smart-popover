@@ -1,6 +1,6 @@
 {
-    "name": "ngx-smart-popover-18",
-    "version": "18.0.0",
+    "name": "ngx-smart-popover-extended",
+    "version": "18.0.1",
   "resolutions": {
     "normalize-url": "6.1.0",
     "serialize-javascript": "6.0.0",
@@ -14,7 +14,7 @@
     "build:all": "ng build --configuration production && npm run build:lib",
     "build:lib": "ng build ngx-smart-popover --configuration production  && npm run build:lib:scss && npm run build:lib:css",
     "build:lib:css": "sass ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-popover/css/popover-content.component.css",
-    "build:lib:scss": "mkdir ./dist/ngx-smart-popover/scss/ && cp ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-popover/scss/popover-content.component.scss",
+    "build:lib:scss": "mkdir ./dist/ngx-ng-popover/scss/ && cp ./projects/ngx-smart-popover/src/lib/popover-content.component.scss ./dist/ngx-smart-popover/scss/popover-content.component.scss",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
