@@ -1,3 +1,5 @@
+⚠️ Angular 18 compatibility - This project has been forked from "https://lsqlabs.github.io/ngx-smart-popover" ⚠️
+
 # ngx-smart-popover
 Simple popover control for your angular (v4+) applications using bootstrap4 with smart reflection logic when overflowing the viewport. This is a continuation of ngx-popover (https://github.com/pleerock/ngx-popover). If you want to use it without bootstrap - simply create corresponding css classes.
 
@@ -7,17 +9,17 @@ See a quick demo - [https://lsqlabs.github.io/ngx-smart-popover/](https://lsqlab
 
 1. Install npm module:
     
-    `npm install ngx-smart-popover --save`
+    `npm install @forkpopover/ngx-smart-popover --save`
 
 2. If you are using system.js you may want to add this into `map` and `package` config:
     
     ```json
     {
         "map": {
-            "ngx-smart-popover": "node_modules/ngx-smart-popover"
+            "@forkpopover/ngx-smart-popover": "node_modules/@forkpopover/ngx-smart-popover"
         },
         "packages": {
-            "ngx-smart-popover": { "main": "index.js", "defaultExtension": "js" }
+            "@forkpopover/ngx-smart-popover": { "main": "index.js", "defaultExtension": "js" }
         }
     }
     ```
@@ -86,11 +88,11 @@ Import the bootstrap styles as a starting point. This module ships with both a C
 
 ```typescript
 import {Component} from "@angular/core";
-import {PopoverModule} from "ngx-smart-popover";
+import {PopoverModule} from "@forkpopover/ngx-smart-popover";
 
 @Component({
-    selector: "app",
-    template: `
+  selector: 'app',
+  template: `
 <div class="container">
 
     <!-- regular popover -->
@@ -151,16 +153,16 @@ export class App {
 }
 
 @NgModule({
-    imports: [
-        // ...
-        PopoverModule
-    ],
-    declarations: [
-        App
-    ],
-    bootstrap: [
-        App
-    ]
+  imports: [
+    // ...
+    PopoverModule
+  ],
+  declarations: [
+    App
+  ],
+  bootstrap: [
+    App
+  ]
 })
 export class AppModule {
 

@@ -169,5 +169,8 @@
             }
         }
     },
-    "defaultProject": "ngx-smart-popover-demo"
+    "defaultProject": "ngx-smart-popover-demo",
+    "cli": {
+      "analytics": false
+    }
 }
