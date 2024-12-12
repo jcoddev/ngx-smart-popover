@@ -3,7 +3,7 @@
     "version": "18.0.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lsqlabs/ngx-smart-popover.git"
+        "url": "git+https://github.com/jcoddev/ngx-smart-popover.git"
     },
     "keywords": [
         "popover",
@@ -17,14 +17,14 @@
         "tooltip"
     ],
     "author": {
-        "name": "lsqlabs",
-        "email": "developers@lsq.com"
+        "name": "jcoddev",
+        "email": "jcoddev24@gmail.com"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/lsqlabs/ngx-smart-popover/issues"
+        "url": "https://github.com/jcoddev/ngx-smart-popover/issues"
     },
-    "homepage": "https://github.com/lsqlabs/ngx-smart-popover#readme",
+    "homepage": "https://github.com/jcoddev/ngx-smart-popoverr#readme",
     "peerDependencies": {
         "@angular/common": ">=18.0.0",
         "@angular/core": ">=18.0.0",
