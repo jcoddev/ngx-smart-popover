@@ -1,6 +1,6 @@
 {
-    "name": "@forkpopover/ngx-smart-popover",
-    "version": "1.5.0",
+    "name": "ngx-smart-popover",
+    "version": "18.0.0",
   "resolutions": {
     "normalize-url": "6.1.0",
     "serialize-javascript": "6.0.0",
@@ -21,7 +21,7 @@
     "e2e:entrypoint": "npm install && ng e2e",
     "e2e:docker": "docker build -t ngx-smart-popover-e2e-tests . && docker run -v ~/code/ngx-smart-popover:/usr/src/app --rm ngx-smart-popover-e2e-tests",
     "run": "ng-packagr -p package.json",
-    "publish": "cp README.md dist/ngx-smart-popover/README.md && cd dist/ngx-smart-popover && npm publish --access public"
+    "publish": "cp README.md dist/ngx-smart-popover/README.md && cd dist/ngx-smart-popover && npm publish"
   },
   "private": false,
   "dependencies": {
