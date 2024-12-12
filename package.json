@@ -21,7 +21,7 @@
     "e2e:entrypoint": "npm install && ng e2e",
     "e2e:docker": "docker build -t ngx-smart-popover-e2e-tests . && docker run -v ~/code/ngx-smart-popover:/usr/src/app --rm ngx-smart-popover-e2e-tests",
     "run": "ng-packagr -p package.json",
-    "publish": "cp README.md dist/ngx-smart-popover/README.md && cd dist/ngx-smart-popover && npm publish"
+    "publish": "copy README.md dist/ngx-smart-popover/README.md && cd dist/ngx-smart-popover && npm publish"
   },
   "private": false,
   "dependencies": {
