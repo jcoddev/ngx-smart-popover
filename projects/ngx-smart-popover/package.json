@@ -1,6 +1,6 @@
 {
     "name": "ngx-popover-extendedver",
-    "version": "0.0.3-nxt",
+    "version": "0.0.4-nxt",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jcoddev/ngx-smart-popover.git"
@@ -28,6 +28,6 @@
     "peerDependencies": {
         "@angular/common": ">=18.0.0",
         "@angular/core": ">=18.0.0",
-        "bootstrap": "^4.0.0"
+        "bootstrap": "^5.0.0"
     }
 }
