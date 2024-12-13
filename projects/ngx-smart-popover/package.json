@@ -1,6 +1,6 @@
 {
-    "name": "ngx-smart-popover-extended",
-    "version": "0.0.1",
+    "name": "ngx-popover-extended",
+    "version": "0.0.3",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jcoddev/ngx-smart-popover.git"
